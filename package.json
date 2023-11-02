@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "host": "vite --host",
     "stylelint": "npx stylelint \"./**/*.{css,scss,sass}\" --config \"./stylelint.config.cjs\"",
-    "stylelint:fix": "npm run stylelint -- --fix"
+    "stylelint:fix": "npm run stylelint -- --fix",
+    "prettier:fix": "prettier --config ./prettier.config.cjs --write ./src/**/*.{css,scss,ts,tsx} ",
+    "prettier:check": "prettier --config ./prettier.config.cjs --check ./src/**/*.{css,scss,ts,tsx}"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -33,6 +35,7 @@
     "postcss-nested": "6.0.0",
     "postcss-preset-env": "7.8.3",
     "postcss-reporter": "7.0.5",
+    "prettier": "^3.0.3",
     "sass": "^1.69.5",
     "stylelint": "14.15.0",
     "stylelint-config-css-modules": "4.1.0",
