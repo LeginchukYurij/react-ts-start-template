@@ -33,6 +33,7 @@
     "postcss-nested": "6.0.0",
     "postcss-preset-env": "7.8.3",
     "postcss-reporter": "7.0.5",
+    "sass": "^1.69.5",
     "stylelint": "14.15.0",
     "stylelint-config-css-modules": "4.1.0",
     "stylelint-config-prettier": "9.0.4",
