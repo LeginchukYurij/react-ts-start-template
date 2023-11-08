@@ -1,6 +1,6 @@
 /* eslint-env node */
 module.exports = {
-  endOfLine: 'lf',
+  endOfLine: 'auto',
   jsxSingleQuote: true,
   printWidth: 80,
   proseWrap: 'never',
